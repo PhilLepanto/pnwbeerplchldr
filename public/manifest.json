@@ -1,7 +1,7 @@
 {
   "short_name": "PNW.BEER",
   "name": "PNW.BEER",
-  "start_url": ".",
+  "start_url": "https://pnw.beer/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

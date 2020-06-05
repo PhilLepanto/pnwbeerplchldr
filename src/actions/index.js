@@ -22,7 +22,7 @@ import history from '../history';
         template_params: formValues
     };
 
-   const response = await sendIt.post('/api/v1.0/email/send',mydata).then(res => history.push('/thanks')).catch(err => history.push('/error'));;
+   await sendIt.post('/api/v1.0/email/send',mydata).then(res => history.push('/thanks')).catch(err => history.push('/error'));;
    
   
    /*
